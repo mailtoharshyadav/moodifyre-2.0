@@ -1,0 +1,13 @@
+#signup{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  .contain{
+    padding-top: 6rem;
+    width: 500px;
+    button{
+      font-size: 20px;
+      padding: 5px 15px;
+    }
+  }
+}

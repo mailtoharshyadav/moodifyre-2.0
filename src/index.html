@@ -9,30 +9,36 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
-<body class="bg-dark text-center">
+<body class="bg-dark">
 
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
-        <div class="inner">
-          <h3 class="masthead-brand">Moodifyre</h3>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="./home">Home</a>
-            <a class="nav-link" href="./detect">Detect Mood</a>
-            <a class="nav-link" href="./playlist">Playlist</a>
-            <a class="nav-link" href="./login">Signup</a>
-          </nav>
-        </div>
-      </header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Moodifyre</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="./home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="./detect">Detect Mood</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="./playlist">Playlist</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="./login">Signup</a>
+      </li>
+
+  </div>
+</nav>
+
 
       <app-root></app-root>
 
 
-
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem unde fugiat</p>
-        </div>
-      </footer>
     </div>
 
 

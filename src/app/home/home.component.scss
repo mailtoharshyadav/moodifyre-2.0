@@ -1,2 +1,18 @@
 #home{
+  background: url(../../assets/img/cover.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  padding-top: 10rem;
+  .contain{
+    h1{
+      text-transform: uppercase;
+      font-size: 7rem;
+      letter-spacing: 10px;
+    }
+    p{
+      margin-bottom: 1rem;
+    }
+  }
 }
