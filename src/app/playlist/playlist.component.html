@@ -19,7 +19,7 @@
 
   <div class="contain">
     <div class="left">
-      <div class="img"><img src="../../assets/img/album.jpg" alt=""></div>
+      <div class="img"><img src="../../assets/img/coverart.jpg" alt=""></div>
     </div>
     <div class="right">
       <div class="heading">
@@ -34,7 +34,7 @@
             <path d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
           </svg></div>
           <div class="name">{{item.name}}</div>
-          <div class="time">{{item.duration.min}} {{item.duration.sec}}</div>
+          <div class="time">{{item.duration.min}}&nbsp;:&nbsp;{{item.duration.sec}}</div>
         </div>
         <!-- <div class="list-item">
           <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
@@ -109,22 +109,10 @@
       <p>{{currentsong.artist}}</p>
     </div>
     <div class="slider">
-      <div class="line"></div>
-      <div class="more">
-        <div class="time">0:00</div>
-        <div class="buttons">
-          <button><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-skip-start-fill" viewBox="0 0 16 16">
-            <path d="M4 4a.5.5 0 0 1 1 0v3.248l6.267-3.636c.54-.313 1.232.066 1.232.696v7.384c0 .63-.692 1.01-1.232.697L5 8.753V12a.5.5 0 0 1-1 0V4z"/>
-          </svg></button>
-          <button><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-pause-fill" viewBox="0 0 16 16">
-            <path d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"/>
-          </svg></button>
-          <button><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-skip-end-fill" viewBox="0 0 16 16">
-            <path d="M12.5 4a.5.5 0 0 0-1 0v3.248L5.233 3.612C4.693 3.3 4 3.678 4 4.308v7.384c0 .63.692 1.01 1.233.697L11.5 8.753V12a.5.5 0 0 0 1 0V4z"/>
-          </svg></button>
-        </div>
-        <div class="time">5:10</div>
-      </div>
+      <audio controls>
+        <source src="../../assets/songs/abc.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
     </div>
   </div>
 
