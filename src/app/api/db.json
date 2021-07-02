@@ -1,0 +1,36 @@
+{
+    "happy": [
+
+      {
+        "id": 1,
+        "name": "FC Barcelona",
+        "artist": "Ernesto Valverde",
+        "duration": "The best football team in the world!",
+        "mood": "The best football team in the world!"
+      },
+      {
+        "id": 2,
+        "name": "Real Madrid",
+        "artist": "Zinedine Zidane",
+        "duration": "The worst football team in the world!",
+        "mood": "The best football team in the world!"
+      }
+    ],
+  "sad": [
+    {
+      "id": 1,
+      "name": "Real Madrid",
+      "artist": "Zinedine Zidane",
+      "duration": "The worst football team in the world!",
+      "mood": "The best football team in the world!"
+    
+    },
+    {
+    "id": 2,
+    "name": "Real Madrid",
+    "artist": "Zinedine Zidane",
+    "duration": "The worst football team in the world!",
+    "mood": "The best football team in the world!"
+    }
+  ]
+}

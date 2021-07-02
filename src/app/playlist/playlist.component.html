@@ -9,8 +9,13 @@
   <li>gender = {{gender}}</li>
   </ul-->
 
+  <h2>Teams</h2>
+  <div *ngFor="let team of teams$ | async">
+    <h3>{{team.name}}</h3>
+    <p>{{team.description}}</p>
+  </div>
 
-
+<!-- 
   <div class="contain">
     <div class="left">
       <div class="img"><img src="../../assets/img/album.jpg" alt=""></div>
@@ -120,7 +125,7 @@
         <div class="time">5:10</div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 </section>
 
