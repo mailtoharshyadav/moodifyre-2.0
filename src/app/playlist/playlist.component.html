@@ -109,8 +109,8 @@
       <p>{{currentsong.artist}}</p>
     </div>
     <div class="slider">
-      <audio controls>
-        <source src="../../assets/songs/abc.mp3" type="audio/mp3">
+      <audio *ngIf="showhide" id="audioel" autoplay controls>
+        <source src="{{currentsong.location}}" type="audio/mp3">
         Your browser does not support the audio element.
       </audio>
     </div>
