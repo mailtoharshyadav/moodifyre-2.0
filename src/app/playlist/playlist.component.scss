@@ -2,6 +2,21 @@
 
   padding-top: 2rem;
   overflow: hidden;
+  .moods{
+    margin-bottom: 1rem;
+    button{
+      background-color: transparent;
+      border: 1px solid white;
+      border-radius: 10px;
+      color: white;
+      width: 100px;
+      padding: 5px 10px;
+      margin-right: 2rem;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
   .contain{
     display: flex;
     flex-direction: row;
