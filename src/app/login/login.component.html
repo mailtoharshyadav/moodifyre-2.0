@@ -1,20 +1,49 @@
-<section id="signup">
+<section *ngIf="loggedin" id="signup">
+
   <div class="contain">
+    <span class="text-danger">{{message}}</span>
     <form>
       <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <input type="email" class="form-control" name="email" [(ngModel)]="email" placeholder="Enter email">
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <input type="password" class="form-control" name="password" [(ngModel)]="password" placeholder="Password">
       </div>
-      <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      <button  (click)="login()" class="btn btn-lg btn-secondary">Login</button>
+      <br><br><br>
+      <p (click)="toggle()">Signup</p>
+    </form>
+  </div>
+
+</section>
+<section *ngIf="!loggedin" id="signup">
+  <div class="contain">
+    <span class="text-danger">{{message}}</span>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" name="email" [(ngModel)]="email" aria-describedby="emailHelp" placeholder="Enter email">
       </div>
-      <button type="submit" class="btn btn-lg btn-secondary">Submit</button>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control" name="name" [(ngModel)]="name" aria-describedby="emailHelp" placeholder="Enter Name">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Age</label>
+        <input type="number" class="form-control" name="age" [(ngModel)]="age" aria-describedby="emailHelp" placeholder="Enter Age">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" name="password" [(ngModel)]="password" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Confirm Password</label>
+        <input type="password" class="form-control"  name="password2" [(ngModel)]="password2" placeholder="Password">
+      </div>
+      <button (click)="signup()" type="submit" class="btn btn-lg btn-secondary">Signup</button>
+      <span class="ml-5" (click)="toggle()">Signin</span>
     </form>
   </div>
 

@@ -23,3 +23,23 @@ export class PlaylistComponent implements OnInit {
   }
 
 }
+/*
+[
+  {
+    "name" : "Song name"
+    "artist" : "singer name"
+    "duration" : "song duration"
+    "mood" : "happy"
+    "location" : ""
+  },
+  {
+    "name" : "Song name"
+    "artist" : "singer name"
+    "duration" : "song duration"
+    "mood" : "sad"
+    "location" : ""
+  },
+
+]
+
+*/
