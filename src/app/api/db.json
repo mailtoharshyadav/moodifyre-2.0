@@ -2,35 +2,213 @@
     "happy": [
 
       {
-        "id": 1,
-        "name": "FC Barcelona",
-        "artist": "Ernesto Valverde",
-        "duration": "The best football team in the world!",
-        "mood": "The best football team in the world!"
+        "name"     : "Chaiyya Chaiyya",
+        "artist"   : "Sukhwinder Singh, Sapna Awasthi",
+        "mood"     : "happy",
+        "location" : "Chaiyya Chaiyya - Shahrukh Khan mp3 song Download PagalWorld.com.mp3", 
+        "duration" : {"sec" :  57} 
       },
       {
-        "id": 2,
-        "name": "Real Madrid",
-        "artist": "Zinedine Zidane",
-        "duration": "The worst football team in the world!",
-        "mood": "The best football team in the world!"
+        "name"     : "Chaiyya Chaiyya",
+        "artist"   : "Sukhwinder Singh, Sapna Awasthi",
+        "mood"     : "happy",
+        "location" : "Chaiyya Chaiyya - Shahrukh Khan mp3 song Download PagalWorld.com.mp3", 
+        "duration" : {"sec" :  57}
+      },
+      {
+        "name"     : "Chaiyya Chaiyya",
+        "artist"   : "Sukhwinder Singh, Sapna Awasthi",
+        "mood"     : "happy",
+        "location" : "Chaiyya Chaiyya - Shahrukh Khan mp3 song Download PagalWorld.com.mp3", 
+        "duration" : {"sec" :  57}
+      },
+      {
+        "name"     : "Chaiyya Chaiyya",
+        "artist"   : "Sukhwinder Singh, Sapna Awasthi",
+        "mood"     : "happy",
+        "location" : "Chaiyya Chaiyya - Shahrukh Khan mp3 song Download PagalWorld.com.mp3", 
+        "duration" : {"sec" :  57}
+      },
+      {
+        "name"     : "Chaiyya Chaiyya",
+        "artist"   : "Sukhwinder Singh, Sapna Awasthi",
+        "mood"     : "happy",
+        "location" : "Chaiyya Chaiyya - Shahrukh Khan mp3 song Download PagalWorld.com.mp3", 
+        "duration" : {"sec" :  57}
+      },
+      {
+        "name"     : "Chaiyya Chaiyya",
+        "artist"   : "Sukhwinder Singh, Sapna Awasthi",
+        "mood"     : "happy",
+        "location" : "Chaiyya Chaiyya - Shahrukh Khan mp3 song Download PagalWorld.com.mp3", 
+        "duration" : {"sec" :  57}
+      },
+      {
+        "name"     : "Chaiyya Chaiyya",
+        "artist"   : "Sukhwinder Singh, Sapna Awasthi",
+        "mood"     : "happy",
+        "location" : "Chaiyya Chaiyya - Shahrukh Khan mp3 song Download PagalWorld.com.mp3", 
+        "duration" : {"sec" :  57}
+      },
+      {
+        "name"     : "Chaiyya Chaiyya",
+        "artist"   : "Sukhwinder Singh, Sapna Awasthi",
+        "mood"     : "happy",
+        "location" : "Chaiyya Chaiyya - Shahrukh Khan mp3 song Download PagalWorld.com.mp3", 
+        "duration" : {"sec" :  57}
+      },
+      {
+        "name"     : "Chaiyya Chaiyya",
+        "artist"   : "Sukhwinder Singh, Sapna Awasthi",
+        "mood"     : "happy",
+        "location" : "Chaiyya Chaiyya - Shahrukh Khan mp3 song Download PagalWorld.com.mp3", 
+        "duration" : {"sec" :  57}
       }
     ],
   "sad": [
     {
-      "id": 1,
-      "name": "Real Madrid",
-      "artist": "Zinedine Zidane",
-      "duration": "The worst football team in the world!",
-      "mood": "The best football team in the world!"
-    
+      "name"     : "Itni Si Baat",
+    "artist"   : "Arijit Singh, Antara Mitra",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  4 , "sec" :  54 } 
     },
     {
-    "id": 2,
-    "name": "Real Madrid",
-    "artist": "Zinedine Zidane",
-    "duration": "The worst football team in the world!",
-    "mood": "The best football team in the world!"
+      "name"     : "Itni Si Baat",
+    "artist"   : "Arijit Singh, Antara Mitra",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  4 , "sec" :  54 } 
+    },
+    {
+      "name"     : "Itni Si Baat",
+    "artist"   : "Arijit Singh, Antara Mitra",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  4 , "sec" :  54 } 
+    },
+    {
+      "name"     : "Itni Si Baat",
+    "artist"   : "Arijit Singh, Antara Mitra",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  4 , "sec" :  54 } 
+    },
+    {
+      "name"     : "Itni Si Baat",
+    "artist"   : "Arijit Singh, Antara Mitra",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  4 , "sec" :  54 } 
+    },
+    {
+      "name"     : "Itni Si Baat",
+    "artist"   : "Arijit Singh, Antara Mitra",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  4 , "sec" :  54 } 
+    },
+    {
+      "name"     : "Itni Si Baat",
+    "artist"   : "Arijit Singh, Antara Mitra",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  4 , "sec" :  54 } 
+    },
+    {
+      "name"     : "Itni Si Baat",
+    "artist"   : "Arijit Singh, Antara Mitra",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  4 , "sec" :  54 } 
+    },
+    {
+      "name"     : "Itni Si Baat",
+    "artist"   : "Arijit Singh, Antara Mitra",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  4 , "sec" :  54 } 
+    },
+    {
+      "name"     : "Itni Si Baat",
+    "artist"   : "Arijit Singh, Antara Mitra",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  4 , "sec" :  54 } 
+    }
+
+  ],
+  "excited" : [
+    {
+      "name"     : "Believer",
+    "artist"   : "Imagine Dragon",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  3 , "sec" :  24 }
+    },
+    {
+      "name"     : "Believer",
+    "artist"   : "Imagine Dragon",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  3 , "sec" :  24 }
+    },
+    {
+      "name"     : "Believer",
+    "artist"   : "Imagine Dragon",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  3 , "sec" :  24 }
+    },
+    {
+      "name"     : "Believer",
+    "artist"   : "Imagine Dragon",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  3 , "sec" :  24 }
+    },
+    {
+      "name"     : "Believer",
+    "artist"   : "Imagine Dragon",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  3 , "sec" :  24 }
+    },
+    {
+      "name"     : "Believer",
+    "artist"   : "Imagine Dragon",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  3 , "sec" :  24 }
+    },
+    {
+      "name"     : "Believer",
+    "artist"   : "Imagine Dragon",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  3 , "sec" :  24 }
+    },
+    {
+      "name"     : "Believer",
+    "artist"   : "Imagine Dragon",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  3 , "sec" :  24 }
+    },
+    {
+      "name"     : "Believer",
+    "artist"   : "Imagine Dragon",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  3 , "sec" :  24 }
+    },
+    {
+      "name"     : "Believer",
+    "artist"   : "Imagine Dragon",
+    "mood"     : "happy",
+    "location" : "" ,
+    "duration" : {"m":  3 , "sec" :  24 }
     }
   ]
+  
 }
